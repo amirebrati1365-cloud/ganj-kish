@@ -1,0 +1,43 @@
+{
+  "name": "ganj-kish",
+  "version": "1.0.0",
+  "description": "An interactive treasure hunting game combining tourism and gamification on Kish Island",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "redux": "^4.2.1",
+    "@reduxjs/toolkit": "^1.9.7",
+    "react-redux": "^8.1.3",
+    "axios": "^1.6.2",
+    "socket.io-client": "^4.5.4",
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^4.2.1",
+    "framer-motion": "^10.16.4",
+    "zustand": "^4.4.6",
+    "date-fns": "^2.30.0",
+    "js-cookie": "^3.0.5",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "tailwindcss": "^3.3.5",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
